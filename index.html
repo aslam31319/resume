@@ -13,29 +13,32 @@
 
 <body>
     <div id="container--main">
-        <section id="theme-selector">
-            <button type="button" onclick="myFunction_set_light()">light</button>
-            <button type="button" onclick="myFunction_set_dark()">dark</button>
+        <section id="theme--selector">
+            <button id="button--light" class="card--techstack" hidden type="button"
+                onclick="myFunction_set_light()">Swich to light theme</button>
+            <button id="button--dark" class="card--techstack" type="button" onclick="myFunction_set_dark()">Swich to
+                dark theme</button>
         </section>
         <section id="wrapper--hero" class="section--page">
             <img id="profile-pic" src="./assets/images/profile_pic.jpg">
 
             <div>
                 <h1 id="user-name">Mohammed Aslam kalluparamban</h1>
-                <p id="bio">Full stack software developer at <a href="https://www.rlabsglobal.com/"
-                        target="_blank">Rlabs</a>- SAP Partner.</p>
+                <p id="bio">Full stack software developer at <a href="https://www.rlabsglobal.com/" target="_blank"
+                        rel="noopener noreferrer">Rlabs</a>- SAP Partner.</p>
                 <p id="email">
                     <a href="mailto:aslucmd@gmail.com">📨 </a>aslucmd@gmail.com
                 </p>
-                <p id="phone--sms"><a href="tel:+918606012370">📞 </a> <a href="https://wa.me/918606012370">🗨️ </a>+91 8606012370</p>
+                <p id="phone--sms"><a href="tel:+918606012370">📞 </a> <a href="https://wa.me/918606012370"
+                        target="_blank" rel="noopener noreferrer">🗨️ </a>+91 8606012370</p>
                 <p id="phone"><a href="tel:+918606012379">📞 </a>+91 8606012379</p>
             </div>
         </section>
 
         <section class="section--page">
             <div id="socials--list">
-                <a href="https://www.linkedin.com/in/aslucmd/" target="_blank">Linkedin</a>
-                <a href="./assets/resume.pdf" target="_blank">Download Resume</a>
+                <a href="https://www.linkedin.com/in/aslucmd/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+                <a href="./assets/resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a>
             </div>
         </section>
 
@@ -54,9 +57,9 @@
 
             <div id="wrapper--techstack__items">
                 <div class="card--techstack"><span>Java, JavaScript, HTML, CSS</span></div>
-                <div class="card--techstack"><span>Spring, Spring boot, Angular 2+, SAP UI5</span></div>
+                <div class="card--techstack"><span>Spring, Spring boot, Angular 2+, SAP UI5, CI/CD</span></div>
                 <div class="card--techstack"><span>PostgreSQL, MySQL, Oracle</span></div>
-                <div class="card--techstack"><span>Reactive, REST, Automation</span></div>
+                <div class="card--techstack"><span>Reactive, REST, Automation, Cloud Foundy</span></div>
             </div>
         </section>
 
@@ -65,16 +68,17 @@
 
             <div class="line-break"></div>
             <div class="card--work-history">
-                <strong>🚧 DEVELOPER ADVOCATE | AGORA.IO</strong>
-                <p>11/2021 - Present</p>
-                <p>Worked on making Agora’s Web Based SDK more accessible through video tutorials, articles, demo
-                    projects and event based training. Also building out React UI components & leading a team to
-                    re-design Agora’s documentation and api reference.</p>
+                <strong>🚧 SOFTWARE DEVELOPER | RLABS ENTERPRISE SERVICES LTD</strong>
+                <p>DEC/2020 - Present</p>
+                <p>Working on making Operations Team's (who works on SAP ISUITE/CPI), work easiear by devoloping Tools,
+                    and Automating the operations.
+                    One of the tool which we devoloped ISDC(Integration Suite DevOps Cockpit) is used for proactively
+                    Monitoirng Outages and problems, sending communication, Software update etc.</p>
                 <ul>
-                    <li>Doubled Web SDK’s monthly usage minutes from 15 million to 30 million minutes within my first 4
-                        months</li>
-                    <li>Produced educational video content which resulted in 300k+ views on youtube</li>
-                    <li>Produced SEO campaigns and content to gain market share for related keywords.</li>
+                    <li>Proactive Monitoring by orchestrating Dynatrace APIs and Other tools.</li>
+                    <li>Automating customer communication for respective system in case of outages.</li>
+                    <li>Sending manual customer communication for respective system.</li>
+                    <li>Software update orchestration, scheduling update for each system etc.</li>
                 </ul>
             </div>
 

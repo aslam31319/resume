@@ -164,6 +164,29 @@ a {
     height: 1px;
 }
 
+#button--light {
+    background-color: var(--mainBgColor);
+    color: var(--mainTextColor);
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+#button--dark {
+    background-color: var(--mainBgColor);
+    color: var(--mainTextColor);
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+#theme--selector {
+    justify-content: end;
+    display: flex;
+}
+
 
 @media(max-width:600px) {
 
