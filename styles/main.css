@@ -143,7 +143,6 @@ a {
 
 .card--project a {
     color: var(--mainTextColor);
-
     transition: 0.3s;
 }
 
